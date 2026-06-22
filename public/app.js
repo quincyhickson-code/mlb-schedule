@@ -635,17 +635,14 @@ function buildPlayersPanel() {
 function buildFavoritesPanel() {
   const panel = document.getElementById('favorites-panel')
   if (!panel) return
-  const faved  = MLB_TEAMS.filter(t => prefs.favTeams.includes(t.abbrev))
-  const show   = faved.length ? faved : MLB_TEAMS
-
-  panel.innerHTML = show.map(t => {
+  panel.innerHTML = MLB_TEAMS.map(t => {
     const isFav = prefs.favTeams.includes(t.abbrev)
     const isMyT = prefs.myTeam === t.abbrev
     const logo  = teamLogoCache.get(t.abbrev)?.logo || logoUrl(t.abbrev)
     return `<div class="fav-team-row">
       <img class="fav-team-logo" src="${logo}" alt="" onerror="this.style.display='none'" />
       <span class="fav-team-name">${t.name}</span>
-      ${faved.length ? `<button class="my-team-btn${isMyT?' active':''}" data-abbrev="${t.abbrev}">${isMyT?'★ My Team':'☆ My Team'}</button>` : ''}
+      <button class="my-team-btn${isMyT?' active':''}" data-abbrev="${t.abbrev}">${isMyT?'★ My Team':'☆ My Team'}</button>
       <button class="fav-team-star" data-abbrev="${t.abbrev}" title="${isFav?'Unfavorite':'Favorite'}" style="${isFav?'':'color:var(--border)'}">★</button>
     </div>`
   }).join('')
