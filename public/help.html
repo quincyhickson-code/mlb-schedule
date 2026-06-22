@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLB Schedule — Help</title>
+  <meta name="theme-color" content="#BD3039" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css?v=1" />
+  <style>
+    .help-wrap { max-width: 680px; margin: 0 auto; padding: 24px 16px 60px; }
+    .help-back { display: inline-block; color: var(--accent); text-decoration: none; font-weight: 600; font-size: 15px; margin-bottom: 20px; }
+    .help-h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 2rem; font-weight: 700; text-transform: uppercase; color: var(--text); margin: 0 0 6px; }
+    .help-sub { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+    .help-section { margin-bottom: 28px; }
+    .help-h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); margin: 0 0 10px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+    .help-p  { font-size: 14px; line-height: 1.6; color: var(--text); margin: 0 0 10px; }
+    .help-ul { font-size: 14px; line-height: 1.8; color: var(--text); padding-left: 20px; margin: 0 0 10px; }
+  </style>
+</head>
+<body>
+  <div class="help-wrap">
+    <a class="help-back" href="/">← Back to schedule</a>
+    <div class="help-h1">MLB Schedule — Help</div>
+    <div class="help-sub">Spoiler-free by default. You control what you see.</div>
+
+    <div class="help-section">
+      <div class="help-h2">Spoilers</div>
+      <p class="help-p">Scores are hidden by default. Turn on <strong>Show scores</strong> in Filters whenever you're ready to see them. Completed games show "Final" until you toggle scores on.</p>
+      <p class="help-p">Mark a game as watched with the <strong>○ / ✓</strong> button on any Final card. Use <strong>Hide watched</strong> to clean up your list.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Schedule view</div>
+      <p class="help-p">Games are grouped by date. MLB plays nearly every day during the regular season (April–September), so you'll typically see a large slate of games per day.</p>
+      <p class="help-p">During the off-season (November–February), a placeholder card is shown until Spring Training data becomes available.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Starting pitchers</div>
+      <p class="help-p">When available, probable starting pitchers are shown below the team names on each game card — including ERA if the API provides it. Live games may show the current pitcher instead.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Doubleheaders</div>
+      <p class="help-p">When two teams play twice in a day, each game card shows a <strong>Game 1</strong> or <strong>Game 2</strong> badge so you can tell them apart.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">League &amp; Division filters</div>
+      <p class="help-p">Filter by American League (AL) or National League (NL), then narrow by Division (East, Central, West). You can combine them — e.g. AL + East shows only AL East games.</p>
+      <p class="help-p">Note: interleague games will appear for both leagues.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">My Team</div>
+      <p class="help-p">Open <strong>Filters → Favorite teams</strong>, star your team, then tap <strong>☆ My Team</strong> to set it. Your team's colors take over the app, your games are highlighted, and the team logo appears in the header.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Teams view &amp; rosters</div>
+      <p class="help-p">Switch to <strong>Teams</strong> to browse all 30 clubs organized by league and division. Tap any team to open its roster. Tap any player for their profile and recent game stats.</p>
+      <p class="help-p">You can also open rosters from the Schedule view by tapping the <strong>Roster</strong> pill on any game card.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Saving players</div>
+      <p class="help-p">Tap ★ on any player in a roster to save them. Open <strong>Filters → Players</strong> to see your saved players list and jump straight to their profiles.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Saving games</div>
+      <p class="help-p">Tap ★ on any game card to bookmark it. Use <strong>Filters → Saved</strong> to see only your bookmarked games.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Archive</div>
+      <p class="help-p">Games older than 14 days roll into the archive. Enable <strong>Show archive</strong> in Filters to see the full history.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Time zones</div>
+      <p class="help-p">All times default to your device's local time. Change the time zone in Filters → the dropdown at the bottom of the filter panel.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-h2">Data &amp; updates</div>
+      <p class="help-p">Schedule data comes from the ESPN public API and refreshes automatically every 10 minutes. Tap <strong>Refresh</strong> in the header to force an immediate update. During game days the scraper keeps live scores and inning info current.</p>
+    </div>
+  </div>
+</body>
+</html>
