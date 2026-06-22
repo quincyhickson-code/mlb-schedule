@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="16" fill="#080b12"/>
+  <circle cx="60" cy="50" r="30" stroke="#ffffff" stroke-width="2.5" fill="none"/>
+  <path d="M38 34 C26 42 26 58 38 66" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M35 37 C23 45 23 55 35 63" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <path d="M82 34 C94 42 94 58 82 66" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M85 37 C97 45 97 55 85 63" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <line x1="36" y1="38" x2="32" y2="35" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="35" y1="44" x2="31" y2="43" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="35" y1="56" x2="31" y2="57" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="36" y1="62" x2="32" y2="65" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="84" y1="38" x2="88" y2="35" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="85" y1="44" x2="89" y2="43" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="85" y1="56" x2="89" y2="57" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="84" y1="62" x2="88" y2="65" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="60" y="104" text-anchor="middle" fill="#ffffff" font-family="Barlow Condensed,system-ui,sans-serif" font-size="22" font-weight="700" letter-spacing="4">MLB</text>
+</svg>
